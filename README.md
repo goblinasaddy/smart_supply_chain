@@ -1,4 +1,4 @@
-# 🚀 ASCIS — Autonomous Supply Chain Intelligence System
+# ASCIS — Autonomous Supply Chain Intelligence System
 
 > An AI-powered system that predicts supply chain disruptions, autonomously reroutes shipments, and explains every decision using LLM reasoning.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 What It Does
+## What It Does
 
 1. **Predicts** supply chain disruptions BEFORE they occur using ML
 2. **Orchestrates** multi-agent AI (LangChain + LangGraph) for autonomous decisions
@@ -18,19 +18,19 @@
 4. **Explains** every decision using Gemini LLM in plain English
 5. **Visualizes** everything in a real-time interactive dashboard
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Streamlit Dashboard → FastAPI → LangGraph Agents → ML + NetworkX + Gemini
 ```
 
 **4 Autonomous Agents:**
-- 📦 **Shipment Agent** — Monitors all active shipments
-- ⚠️ **Risk Agent** — Predicts disruption probability (XGBoost)
-- 🗺️ **Routing Agent** — Finds optimal alternative routes (NetworkX)
-- 🎯 **Coordinator** — Orchestrates the entire pipeline
+- **Shipment Agent** — Monitors all active shipments
+- **Risk Agent** — Predicts disruption probability (XGBoost)
+- **Routing Agent** — Finds optimal alternative routes (NetworkX)
+- **Coordinator** — Orchestrates the entire pipeline
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -42,7 +42,7 @@ Streamlit Dashboard → FastAPI → LangGraph Agents → ML + NetworkX + Gemini
 | Frontend | Streamlit |
 | Data Models | Pydantic |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 smart_supply_chain/
@@ -64,7 +64,7 @@ smart_supply_chain/
 └── README.md
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Clone & setup
@@ -80,7 +80,7 @@ echo GEMINI_API_KEY=your_key > .env
 python run.py
 ```
 
-## 🎬 Demo
+## Demo
 
 The system demonstrates:
 - Shipments moving across India's supply chain network
@@ -88,7 +88,7 @@ The system demonstrates:
 - Autonomous rerouting with AI explanation
 - Multi-agent coordination visible in dashboard
 
-## 📄 Documentation
+## Documentation
 
 - [Architecture](docs/architecture.md)
 - [Agent Design](docs/agents.md)
